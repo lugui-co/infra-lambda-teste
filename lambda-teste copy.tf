@@ -1,4 +1,4 @@
-module lambda-teste {
+module lambda-teste2 {
     source = "./infra-terraform-modules/lambda"
     lambda_repo = "git@github.com:lugui-co/lambda-teste2.git"
     description = "Lambda de teste --apagar"
