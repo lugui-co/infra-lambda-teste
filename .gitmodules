@@ -1,0 +1,4 @@
+[submodule "infra-terraform-modules"]
+	path = infra-terraform-modules
+	url = git@github.com:lugui-co/infra-terraform-modules.git
+	branch = production
