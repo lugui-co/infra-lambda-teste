@@ -1,9 +1,9 @@
-module lambda-teste2 {
+module lambda-teste3 {
     source = "./infra-terraform-modules/lambda"
-    lambda_repo = "git@github.com:lugui-co/lambda-teste2.git"
+    lambda_repo = "git@github.com:lugui-co/lambda-teste3.git"
     description = "Lambda de teste --apagar"
-    function_name = "lambda-teste2"
-    runtime = "docker"
+    function_name = "lambda-teste3"
+    runtime = "python3.10"
     handler = "main.lambda_handler"
     iam_prefix = "lambda_exec_"
     memory_size = 128
