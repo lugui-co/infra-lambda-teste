@@ -5,7 +5,7 @@ module "ecs-test"  {
     vpc_id = var.vpc_id
     services = [
         {
-            name = "ecs-test"
+            name = "ecs-test-${terraform.workspace}"
             memory = 2048
             cpu = 1024
             ports = [5000]
